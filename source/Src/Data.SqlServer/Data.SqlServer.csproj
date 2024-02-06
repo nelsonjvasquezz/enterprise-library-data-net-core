@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="$(TargetFramework.StartsWith('netstandard')) OR $(TargetFramework.StartsWith('netcoreapp'))">
-    <PackageReference Include="System.Data.SqlClient" Version="$(SystemDataSqlClientVersion)" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="$(SystemDataSqlClientVersion)" />
   </ItemGroup>
   
   <ItemGroup>
